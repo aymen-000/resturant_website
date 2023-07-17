@@ -1,0 +1,23 @@
+.top_about {
+    background-image: url("../assets/multiplePizzas.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+}
+.bot_about {
+    width:50vw ;
+}
+.botu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    text-align: center;
+}
+p {
+    color: rgb(26, 24, 24);
+    font-weight: 500;
+}

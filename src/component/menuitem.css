@@ -1,0 +1,19 @@
+.menuitem {
+    border-radius: 1em;
+    width:fit-content;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.item_name {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.image {
+    border-radius: 1em 1em 0  0;
+}
+.item_price {
+    color: rgb(71, 64, 64);
+    font-weight: bold;
+    margin-left: 15px;
+}

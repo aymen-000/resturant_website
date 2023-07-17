@@ -1,0 +1,50 @@
+
+.text1 {
+    width:100%;
+    background-image: url(../assets/pizza.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    margin-left: 25px;
+    line-height: 2.9rem;
+}
+h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+h2 {
+    font-size: 26px;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.692);
+}
+.order_button {
+    color: white;
+    background-color: black;
+    border: hidden;
+    border-radius: 0.2rem;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    transition-property: all;
+    transition-delay: 2ms;
+    transition-timing-function: ease-in-out;
+    transition-duration: 2ms;
+}
+.order_button:hover {
+    color: black;
+    font-weight: 800;
+    background-color: white;
+}
